@@ -1,6 +1,6 @@
 # Graph-RAG360
 
-# Phase 1 — Baseline RAG Pipeline
+RAG Pipeline
 
 ## Overview
 This project implements a, working Retrieval-Augmented Generation (RAG) pipeline using vector search and local LLM inference. The pipeline is evaluated on a set of QA pairs about "Famous Inventions" and provides a baseline for future hybrid and knowledge-graph-augmented approaches.
