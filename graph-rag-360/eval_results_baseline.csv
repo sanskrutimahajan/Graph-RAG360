@@ -1,0 +1,49 @@
+question,ground_truth,prediction
+What is Qdrant?,Qdrant is an open-source vector database for efficient similarity search and AI applications.,"According to the context, Qdrant is an open-source vector database designed for efficient similarity search and AI applications. ( Sentence: ""Qdrant is an open-source vector database designed for efficient similarity search and AI applications."" )"
+How do you install Qdrant?,"You can install Qdrant using Docker, Homebrew, or by downloading pre-built binaries from the official website.","According to the context, you can install Qdrant using:
+
+* Docker
+* Homebrew
+* or by downloading pre-built binaries from the official website.
+
+ Relevant sentences:
+""It is suitable for use cases like semantic search, recommendation systems, and machine learning pipelines. Installation: You can install Qdrant using Docker, Homebrew, or by downloading pre-built binaries from the official website."""
+What programming languages does Qdrant support?,"Qdrant provides client libraries for Python, Go, and RESTful API for other languages.","According to the context, Qdrant provides client libraries for ""multiple programming languages, including Python and Go."""
+What is a vector database?,A vector database stores and manages vector embeddings for similarity search and machine learning applications.,"According to the context, a vector database is defined as follows:
+
+""It supports storing, indexing, and searching high-dimensional vectors.""
+
+Here, ""vector"" refers to high-dimensional vectors, which are used in AI applications such as similarity search."
+How does Qdrant handle data persistence?,Qdrant uses write-ahead logging and periodic snapshots to ensure data durability and recovery.,"According to the context, Qdrant handles data persistence through:
+
+* Write-ahead logging
+* Periodic snapshots
+
+(Reference: ""Qdrant ensures data persistence through write-ahead logging and periodic snapshots."")"
+What is the default distance metric in Qdrant?,"The default distance metric in Qdrant is Cosine similarity, but others like Euclidean are also supported.","The context does not explicitly state the default distance metric in Qdrant. However, it mentions ""Multiple distance metrics"" as one of the key features, suggesting that users can choose from various distance metrics, including Cosine and Euclidean. Therefore, there is no specific mention of a default distance metric.
+
+Relevant sentences:
+
+* ""Key Features: - High-performance vector search - Payload-based filtering - Multiple distance metrics - Data persistence and recovery""
+* ""The database supports filtering, payloads (metadata), and various distance metrics such as Cosine and Euclidean."""
+How can you search for similar items in Qdrant?,"You can search for similar items by sending a query vector to Qdrant, which returns the most similar stored vectors.","According to the context, Qdrant supports efficient similarity search. The relevant sentence is:
+
+""Qdrant provides a RESTful API and client libraries for multiple programming languages, including Python and Go... (it) supports storing, indexing, and searching high-dimensional vectors.""
+
+This indicates that you can search for similar items in Qdrant by using the provided APIs or client libraries to store, index, and search your high-dimensional vectors."
+Does Qdrant support filtering search results?,"Yes, Qdrant supports filtering search results using payload-based filtering.","According to the context, yes, Qdrant supports filtering search results. The key feature mentioned is ""Payload-based filtering"" (emphasis added):
+
+Key Features:
+- High-performance vector search
+- **Payload-based filtering**
+- Multiple distance metrics
+- Data persistence and recovery
+- Easy integration with machine learning models"
+What is the use of payload in Qdrant?,Payload allows you to attach additional metadata to vectors for filtering and categorization.,"According to the context, the use of payload in Qdrant is:
+
+""Payload-based filtering""
+
+(Cite relevant sentence: ""Key Features: - High-performance vector search - Payload-based filtering - Multiple distance metrics - Data persistence and recovery"")"
+How do you update a vector in Qdrant?,You can update a vector in Qdrant by using the update API endpoint with the new vector and payload information.,"The context does not mention updating a vector in Qdrant. It only provides information about the installation, key features, and general usage of Qdrant. Therefore, I cannot provide an answer to this question based on the provided context.
+
+However, if you're looking for more information on how to update a vector in Qdrant, I would recommend visiting the official Qdrant documentation or searching for relevant documentation or tutorials online."
